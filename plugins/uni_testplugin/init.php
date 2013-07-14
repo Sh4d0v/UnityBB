@@ -12,4 +12,5 @@
 	
 	//  Load plugin file
 	$plugin -> Init_Plugin(PLUGIN_NAME, PLUGIN_VERSION, PLUGIN_AUTHOR);
+
 ?>

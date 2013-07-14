@@ -16,8 +16,8 @@
 			// Plugin init
 		}
 		
-		public function Install_Plugin() {
-			// install instruction
+		public function Install_Plugin($file) {
+			include_once($this->file);
 		}
 	
 	}

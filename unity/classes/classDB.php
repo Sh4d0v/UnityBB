@@ -31,6 +31,10 @@
 			}
 		}
 		
+		public function Query_DB() {
+			// to-do
+		}
+		
 		public function Close_DB() {
 			if ($this->connection)
 			{
