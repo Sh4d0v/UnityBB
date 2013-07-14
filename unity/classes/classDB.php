@@ -1,7 +1,7 @@
-<?php
+Ôªø<?php
 	/**
-	* @author Jakub Kuüma <qbakuzma@gmail.com>
-	* @copyright Jakub Kuüma
+	* @author Jakub Ku≈∫ma <qbakuzma@gmail.com>
+	* @copyright Jakub Ku≈∫ma
 	* @license GNU GPL
 	* @date 15-07-2013
 	* It controls database
