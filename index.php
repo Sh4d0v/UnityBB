@@ -29,4 +29,9 @@
 	*
 	*/
 	include('unity/main_init'.phpExt);
+	/**
+	* Include debug mode
+	*
+	*/
+	include('debug'.phpExt);
 ?>
