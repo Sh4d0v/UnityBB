@@ -4,7 +4,7 @@
 	
 		static $config;
 		
-		static function 404_error()
+		static function error404()
 		{
 			header('HTTP/1.1 404 Not Found');
 			exit;
