@@ -4,7 +4,6 @@
 	* @copyright Jakub Kuźma
 	* @license GNU GPL
 	* @date 15-07-2013
-	* It controls plugin
 	*/
 	class Plugin {
 		/**
