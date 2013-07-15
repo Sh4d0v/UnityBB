@@ -1,10 +1,10 @@
-<?php
+ï»¿<?php
 /**
  * UnityBB
  * beta v0.1
  *
- * @author 		Jakub KuŸma, Pawe³ Kobel
- * @copyright	(c) 2013 Jakub KuŸma, Pawe³ Kobel.
+ * @author 		Jakub KuÅºma, PaweÅ‚ Kobel
+ * @copyright	(c) 2013 Jakub KuÅºma, PaweÅ‚ Kobel.
  *
  */
 	/**

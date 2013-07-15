@@ -12,6 +12,7 @@
 			require_once('/../classes/classModel'.phpExt);
 			require_once('/../classes/classView'.phpExt);
 			require_once('/../classes/classController'.phpExt);
+			require_once('/../classes/classUser'.phpExt);
 		}
 		/**
 		* Load BBCode parser
