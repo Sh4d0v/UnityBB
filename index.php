@@ -8,6 +8,6 @@
  *
  */
 
-	require_once('unity/init.php');
+	include('unity/main_init.php');
 	
 ?>

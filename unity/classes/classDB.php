@@ -12,37 +12,37 @@
 		* @access public
 		* It sets hostname of database
 		*/
-		public $db_host;
+		public $db_host = null;
 		/**
 		* @var string
 		* @access public
 		* It sets name of database
 		*/
-		public $db_name;
+		public $db_name = null;
 		/**
 		* @var string
 		* @access public
 		* It sets user login for database
 		*/
-		public $db_user;
+		public $db_user = null;
 		/**
 		* @var string
 		* @access public
 		* It sets password for user
 		*/
-		public $db_pass;
+		public $db_pass = null;
 		/**
 		* @var string
 		* @access public
 		* Its informations about database connection
 		*/
-		public $connection;
+		public $connection = null;
 		/**
 		* @var string
 		* @access public
 		* Its informations about error in connection
 		*/
-		public $error;
+		public $error = null;
 		/**
 		* @access public
 		* Set a lot of informations about database and connection
@@ -92,7 +92,7 @@
 					return false;
 				}
 			} else {
-				$this->error = 'Brak aktywnego po³¹czenia';
+				$this->error = 'Brak aktywnego poÅ‚Ä…czenia';
 				return false;
 			}
 		}

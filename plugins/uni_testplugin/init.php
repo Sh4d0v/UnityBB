@@ -1,6 +1,6 @@
 <?php
 	// Init plugins with class
-	include_once("./plugins.php");
+	include_once('./plugins.php');
 
 	// create new class based on Plugin() class
 	$plugin = new Plugin();
