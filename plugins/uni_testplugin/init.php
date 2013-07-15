@@ -12,7 +12,14 @@
 	
 	//  Load plugin file
 	$plugin -> Init_Plugin(PLUGIN_NAME, PLUGIN_VERSION, PLUGIN_AUTHOR);
-
-	// Install, if plugin is not installed yet
-	// $plugin -> Install_Plugin();
+	
+	function pluginInstall() {
+		$plugin -> Install_Plugin('install.php');
+		Install();
+	}
+	
+	function pluginUninstall() {
+		$plugin -> Uninstall_Plugin('install.php');
+		Uninstall();
+	}
 ?>

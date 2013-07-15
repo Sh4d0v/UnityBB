@@ -52,5 +52,14 @@
 			}
 			include_once($this->file);
 		}
+		
+		public function Uninstall_Plugin($file) {
+			
+			if (!$this->file)
+			{
+				$this->file = 'install'.phpExt;
+			}
+			include_once($this->file);
+		}
 	}
 ?>

@@ -5,7 +5,7 @@
 * @license GNU GPL
 * @date 15-07-2013
 */
-	/**
+   /**
 	* Database informations for connection
 	* 
 	*	informations:
