@@ -58,7 +58,7 @@
 		* Main connection to database
 		*/
 		public function Connect_DB() {
-			if ($connection = mysql_connect($db_host, $db_user, $db_pass) 
+			if ($connection = mysql_connect($db_host, $db_user, $db_pass))
 			{
 				if(mysql_select_db($db_name, $connection)) 
 				{
