@@ -1,22 +1,6 @@
 <?php
 /*
  *---------------------------------------------------------------
- * APPLICATION DEBUG MODE
- *---------------------------------------------------------------
- *
- * You can load different configurations depending on your
- * current debug mode. Setting the debug also influences
- * things like logging and error reporting.
- *
- * This can be set to anything, but default usage is:
- *
- *     "release" - ready to use board
- *     "debug" - showing all error, for developers
- *
- */
-	define('UNITY_DEBUG_MODE', 'debug');
-/*
- *---------------------------------------------------------------
  * ERROR REPORTING
  *---------------------------------------------------------------
  *

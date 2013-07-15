@@ -1,25 +1,44 @@
 <?php
 
-	abstract class _View {
+	class _Template {
 		/**
 		* @var string
-		* @access static
+		* @access public
 		* It sets dir of templates
 		*/
-		static $dir = '';
+		public $dir;
 		/**
 		* @var string
-		* @access static
+		* @access public
 		* It sets var in template
 		*/
-		static $var = array();
+		public $var = array();
 		
-		protected $file;
-		protected $data = array();
+		private $file = null;
+		private $data = array();
 		
-		function __construct($file)
-		{
-			$this->file = $file;
+		public function changeDir($dir) {
+		
+			$this->dir = $dir;
+		}
+		
+		public function show($folder, $name) {
+		
+			$path = $folder . $name;
+
+			if (file_exists($path) == false)
+			{
+				exit('Template not found! File: '. $folder . $path);
+				return false;
+			}
+
+			// to-do
+			//foreach ($this->vars as $key => $value)
+			//{
+			//		$$key = $value;
+			//}
+			
+			include($path);
 		}
 	}
 ?>

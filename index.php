@@ -13,6 +13,11 @@
 	*/
 	$plugins = 'plugins';
 	/**
+	* The directory in which your templates are located.
+	*
+	*/
+	$interface = 'interface';
+	/**
 	* The directory in which the UnityBB resources are located. The system
 	* directory must contain the classes and function files.
 	*
@@ -34,4 +39,20 @@
 	*
 	*/
 	include('debug'.phpExt);
+	 /*
+	*---------------------------------------------------------------
+	* APPLICATION DEBUG MODE
+	*---------------------------------------------------------------
+	*
+	* You can load different configurations depending on your
+	* current debug mode. Setting the debug also influences
+	* things like logging and error reporting.
+	*
+	* This can be set to anything, but default usage is:
+	*
+	*     "release" - ready to use board
+	*     "debug" - showing all error, for developers
+	*
+	*/
+	define('UNITY_DEBUG_MODE', 'release');
 ?>
