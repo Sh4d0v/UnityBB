@@ -1,6 +1,6 @@
 <?php
-	include('./unitybb.php');
-	include('classes/classDB.php');
+	include('./unitybb'.phpExt);
+	include('classes/classDB'.phpExt);
 	
 	$connect = new db();
 	

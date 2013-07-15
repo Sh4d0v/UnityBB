@@ -46,6 +46,11 @@
 		* It install plugin using single file
 		*/
 		public function Install_Plugin($file) {
+			
+			if (!$this->file)
+			{
+				$this->file = 'install'.phpExt;
+			}
 			include_once($this->file);
 		}
 	}
