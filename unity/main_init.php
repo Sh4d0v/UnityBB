@@ -14,6 +14,6 @@
 	$template -> show($folder, 'boards.html');
 	$template -> show($folder, 'footer.html');
 	
-	if($_GET['logout'])
+	if(@$_GET['logout'])
 		_Controller::uni_logout();
 ?>

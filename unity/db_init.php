@@ -11,8 +11,14 @@
 	*	NOTE: You can change database param into unitybb.php file
 	*
 	*/
-	include('./unitybb'.phpExt);
 	include('classes/classDB'.phpExt);
+
+	if (file_exists('./unitybb'.phpExt)) {
+		include('./unitybb'.phpExt);
+	} else {
+		include('./setup'.phpExt);
+		exit();
+	}
 	/**
 	* Init database
 	*
