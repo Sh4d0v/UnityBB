@@ -48,7 +48,7 @@
 			
 			if (!$this->file)
 			{
-				$this->file = 'install'.phpExt;
+				$this->file = 'controll'.phpExt.'?plugin=install';
 			}
 			include_once($this->file);
 		}
@@ -57,7 +57,7 @@
 			
 			if (!$this->file)
 			{
-				$this->file = 'install'.phpExt;
+				$this->file = 'controll'.phpExt.'?plugin=uninstall';
 			}
 			include_once($this->file);
 		}
