@@ -38,5 +38,5 @@
 	* Close connection with selected database
 	*
 	*/
-	$connect -> Close_DB();
+	// $connect -> Close_DB();
 ?>
